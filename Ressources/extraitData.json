@@ -1,0 +1,331 @@
+[
+    {
+        "character": "Bohort",
+        "episode": "Livre I, 54 - Le Serpent Géant",
+        "file": "attendez_il_faut_que_ca_soit_vrai_tout_ce_qu_on_dit_la.mp3",
+        "title": "Attendez... il faut que ça soit vrai tout ce qu'on dit la ?",
+        "tag":  "Commercial"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre I, 46 - Le Code de Chevalerie",
+        "file": "alors_des_qu_il_s_agit_d_aller_se_dorer_les_miches_en_armorique.mp3",
+        "title": "Alors dès qu'il s'agit d'aller s'dorer les miches en Armorique pour demander aux filles si elles ont pas vu le cul de Lulu alors là, là oui y a des volontaires !",
+        "tag": "Fainéant"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre II, 18 - Sept Cent Quarante-Quatre",
+        "file": "bah-ca-depend-a-partir-de-quand.mp3",
+        "title": "Bah ça dépend à partir de quand. Après-demain à partir d'aujourd'hui ?",
+        "tag": "Temps"
+    },
+    {
+        "character": "Roparzh",
+        "episode": "Livre VI, 07 - Arturus Rex",
+        "file": "c_est_maintenant_quil_faut_se_secouer.mp3",
+        "title": "Mais justement c'est maintenant qu'il faut se secouer les rognons, sinon ça part tout à volo.",
+        "tag": "Travail"
+    },
+    {
+        "character": "Roparzh",
+        "episode": "Livre II, 69 - Feue La Vache De Roparzh",
+        "file": "elle_avait_choppe_toutes_les_maladies.mp3",
+        "title": "Et puis quand elle est revenue, elle avait choppé toutes les maladies qu'existent",
+        "tag": "COVID"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 54 - The Game",
+        "file": "jsuis_a_mon_poste_cest_pas_le_cas_de_tout_le_monde.mp3",
+        "title": "J'suis à mon poste ! C'est pas le cas de tout le monde !",
+        "tag": "Travail"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre II, 20 - Les Misanthropes",
+        "file": "nan-nan-nous-on-est-pas-fixe.mp3",
+        "title": "Ah non, mais nous, on n’est pas fixé ! On propose ça, c’qui compte c’est que ce soit un peu marrant, quoi ! Et pis pour vous, ça va vous faire rigoler un peu ! C’est pas bon d’rester enfermé dans votre cagibi à glander toute la journée",
+        "tag": "Fainéant"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 07 - Le Rassemblement du Corbeau",
+        "file": "sans-deconner-faut-pas-y-aller-demain.mp3",
+        "title": "Sans déconner faut pas y aller demain",
+        "tag": "Temps"
+    },
+    {
+        "character": "Spurius",
+        "episode": "Livre VI, 06 - Nuptiae",
+        "file": "comment_peut_on_arriver_a_un_grade_aussi_eleve.mp3",
+        "title": "Comment peut-on arriver à un grade aussi élevé en étant aussi naïf ?",
+        "tag": "Stupide"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre II, 53 - L'Absent",
+        "file": "et-oui-meme-t-es-bien-mouchee.mp3",
+        "title": "Et oui mémé, t'es bien mouchée héhéhéhé",
+        "tag": "Blague"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre II, 79 - La Botte secrète II",
+        "file": "C_est_pas_comme_si_on_passait_pour_des_glands_tous_les_jours.mp3",
+        "title": "Ouais remarquez ça va, c'est pas comme si on passait pour des glands tous les jours",
+        "tag": "Stupide"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 55 - La Quinte Juste",
+        "file": "et_si_vous_arretiez_de_gueuler.mp3",
+        "title": "Et si vous arrêtiez de gueuler, un peu ?",
+        "tag": "Raller"
+    },
+    {
+        "character": "Guethenoc",
+        "episode": "Livre II, 23 - La Révolte",
+        "file": "je_pourrais_gueuler_dans_le_cul_dun_poney.mp3",
+        "title": "Je gueule, je gueule, j'pourrais gueuler dans le cul d'un poney, qu'ce serait pareil !",
+        "tag": "Raller"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 39 - La Rencontre",
+        "file": "la-cest-sur-vu-les-tronche-que-vous-tirez.mp3",
+        "title": "Là c'est sûr que vu les tronches que vous tirez ça file pas tellement envie de faire la fiesta",
+        "tag": "Raller"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 64 - Le chaudron rutilant",
+        "file": "il_m_aura_fait_chier_jusqu_au_bout_celui_la.mp3",
+        "title": "Il m'aura fait chier jusqu'au bout celui-là !",
+        "tag": "Chiant"
+    },
+    {
+        "character": "Merlin",
+        "episode": "Livre III, 04 - Le Renfort Magique",
+        "file": "j-ai-tout-entendu.mp3",
+        "title": "J'ai tout entendu et c'est honteux !",
+        "tag": "Honteux"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 12 - Le Sixième Sens",
+        "file": "jai_rien_compris.mp3",
+        "title": "J'ai rien compris !",
+        "tag": "Stupide"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 97 - Agnus Dei",
+        "file": "la_vache_ca_daube_la_dedans_il_y_a_un_chat_qui_est_creve_ou_quoi.mp3",
+        "title": "La vache, ça daube là-dedans ! Il y a un chat qui est crevé ou quoi ?",
+        "tag": "Odeur"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 07 - Le Rassemblement du Corbeau",
+        "file": "la-blague-est-pas-drole.mp3",
+        "title": "La blague est pas drôle !",
+        "tag": "Blague"
+    },
+    {
+        "character": "Guenièvre",
+        "episode": "Livre I, 42 - Le Zoomorphe",
+        "file": "lair_idiote.mp3",
+        "title": "Je vais avoir l'air d'une idiote",
+        "tag": "Stupide"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre III, 95 - L'étudiant",
+        "file": "le_prochain_qui_l_ouvre_galeres_trois_ans.mp3",
+        "title": "Le prochain qui l'ouvre, je l'envoie aux galères pendant trois ans, sans déconner j'le fais.",
+        "tag": "Marre"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 12 - Les Classes de Bohort",
+        "file": "mais_je_vous_emmerde_mon_ptit_pote.mp3",
+        "title": "Mais je vous emmerde mon p'tit pote",
+        "tag": "Insulte"
+    },
+    {
+        "character": "Roparzh",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "mais_qu_est_ce_que_j_en_ai_a_foutre.mp3",
+        "title": "Mais qu'est-ce que j'en ai à foutre de vos horaires, j'arrive quand j'arrive et puis c'est tout",
+        "tag": "Temps"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 22 - Plus Près de Toi",
+        "file": "merciiiii.mp3",
+        "title": "Merciiiii !",
+        "tag": "Merci"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre II, 36 - Les Exploités",
+        "file": "on_en_a_gros.mp3",
+        "title": "ON EN A GROS !",
+        "tag": "Classic"
+    },
+    {
+        "character": "Karadoc",
+        "episode": "Livre I, 28 - La Botte secrète",
+        "file": "cest_pas_faux1.mp3",
+        "title": "C'est pas faux",
+        "tag": "Classic"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 28 - La Botte secrète",
+        "file": "cest_pas_faux2.mp3",
+        "title": "Ouais c'est pas faux",
+        "tag": "Classic"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 47 - Le Complot",
+        "file": "tropgentil.mp3",
+        "title": "Vous savez ce que c'est mon problème ? Trop gentil !",
+        "tag": "Moi"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 86 - Les Félicitations",
+        "file": "alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3",
+        "title": "Alors, moi j'ai un petit problème : c'est que j'ai pas pigé UN BROC de ce que vous bavez.",
+        "tag": "Compréhension"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 89 - Tel un Chevalier",
+        "file": "arretez_de_parler_aux_gens.mp3",
+        "title": "Non, moi j'crois qu'il faut qu'vous arrêtiez d'essayer de dire des trucs. Ça vous fatigue, déjà, et pour les autres, vous vous rendez pas compte de c'que c'est. Moi quand vous faites ça, ça me fout une angoisse... j'pourrais vous tuer, j'crois. De chagrin, hein ! J'vous jure c'est pas bien. Il faut plus que vous parliez avec des gens.",
+        "tag": "Compréhension"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 93 - Unagi",
+        "file": "ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3",
+        "title": "Ça vous fait pas mal à la tête de glandouiller 24h sur 24 ?",
+        "tag": "Fainéant"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 67 - La Kleptomane",
+        "file": "intro_comaque.mp3",
+        "title": "L'intro est comaque",
+        "tag": "Compréhension"
+    },
+    {
+        "character": "Perceval",
+        "episode": "Livre I, 12 - Le Sixième Sens",
+        "file": "jai_rien_compris.mp3",
+        "title": "J'ai rien compris !",
+        "tag": "Compréhension"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 99 - La Retraite",
+        "file": "mais_qu_est_ce_que_vous_me_bavez_encore.mp3",
+        "title": "Mais qu'est-ce que vous me bavez encore !",
+        "tag": "Compréhension"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 99 - La Retraite",
+        "file": "qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3",
+        "title": "Qu'est-ce que vous voulez savoir ? Allez, vous vous magnez l'tronc mainenant ! Vous m'dites c'que vous voulez et vous faites un effort pour que j'pane au moins le sens de votre phrase ! Je commence à en avoir plein le dos et d'choper des maux de tête à répétition à force de jamais piger un broc de c'que vous racontez ! Alors vous reprenez d'puis l'début, avec une tournure simple et directe ou vous ramassez une tarte, c'est clair ça ?!",
+        "tag": "Compréhension"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 36 - Raison d'argent",
+        "file": "vous_la_crachez_votre_pastille.mp3",
+        "title": "Bah vous la crachez votre pastille ?",
+        "tag": "Compréhension"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 88 - L'Escorte",
+        "file": "bon_bah_aller_on_demarre_et_ouvrez_les_echauguettes.mp3",
+        "title": "Bon bah aller on démarre. Et ouvrez les échauguettes, j'ai pas envie de répéter.",
+        "tag": "Réunion"
+    },
+    {
+        "character": "Roparzh",
+        "episode": "Livre IV, 31 - La Révolte III",
+        "file": "ca_va_encore_faire_des_discussions_a_rallonge.mp3",
+        "title": "Ça va encore faire des discussions à rallonge",
+        "tag": "Réunion"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre II, 25 - Séli et les Rongeurs",
+        "file": "cest_le_rendez_vous_des_glandus_la_ou_quoi.mp3",
+        "title": "C'est le rendez-vous des glandus là ou quoi ?",
+        "tag": "Réunion"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre III, 26 - L'assemblée des rois I",
+        "file": "cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3",
+        "title": "Euh… c'est moi ou y a une ambiance de merde ?",
+        "tag": "Raller"
+    },
+    {
+        "character": "Yvain",
+        "episode": "Livre IV, 78 - Le Choix de Gauvain",
+        "file": "embobinage_dans_l_air.mp3",
+        "title": "Embobinage dans l'air...",
+        "tag":  "Commercial"
+    },
+    {
+        "character": "Dame Séli",
+        "episode": "Livre II, 20 - Les Misanthropes",
+        "file": "il-n-y-a-pas-dequivoque-vous-etes-franchement-un-bourrin.mp3",
+        "title": "Il n'y a pas d'équivoque, vous êtes franchement un bourrin en toute circonstance",
+        "tag": "Bourrin"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 30 - La Garde Royale",
+        "file": "bon_cassez_vous.mp3",
+        "title": "Bon, cassez-vous ! Cassez-vous sans déconner j'vous défonce. Vous vous tirez où je vous caillasse la tête !",
+        "tag": "Marre"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre I, 19 - Le Repos du Guerrier",
+        "file": "commencez_pas_a_me_faire_chier.mp3",
+        "title": "Ah vous ne commencez pas à me faire chier, c'est pas l'soir",
+        "tag": "Marre"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 10 - La Chambre",
+        "file": "est-ce_que_vous_pouvez_vous_barrer_maintenant.mp3",
+        "title": "Est-ce que vous pouvez vous barrer, maintenant ?",
+        "tag": "Marre"
+    },
+    {
+        "character": "Arthur",
+        "episode": "Livre II, 34 - La Ronde",
+        "file": "est-ce-que-vous-allez-finir-par-fermer-vos-gueules.mp3",
+        "title": "Est-ce que vous allez finir par fermer vos gueules ?",
+        "tag": "Marre"
+    },
+    {
+        "character": "Léodagan",
+        "episode": "Livre I, 45 - Le Oud",
+        "file": "oh_et_puis_j_en_ai_marre.mp3",
+        "title": "Oh et puis j’en ai marre ! EH OH, ÇA VA PAS BIENTÔT FINIR NON ?",
+        "tag": "Marre"
+    }
+]

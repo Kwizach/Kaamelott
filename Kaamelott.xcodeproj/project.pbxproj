@@ -7,15 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5340B4C424A37E4A004566C3 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5340B4C324A37E4A004566C3 /* TagListView.swift */; };
+		53B373A824A5CA8E007AA88D /* PersoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B373A724A5CA8E007AA88D /* PersoView.swift */; };
+		53B373AA24A5CC4A007AA88D /* FallingPersoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B373A924A5CC4A007AA88D /* FallingPersoView.swift */; };
 		53BA90DC24A02CBE0002400A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BA90DB24A02CBE0002400A /* AppDelegate.swift */; };
 		53BA90DE24A02CBE0002400A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BA90DD24A02CBE0002400A /* SceneDelegate.swift */; };
 		53BA90E024A02CBE0002400A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BA90DF24A02CBE0002400A /* ContentView.swift */; };
 		53BA90E224A02CC00002400A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BA90E124A02CC00002400A /* Assets.xcassets */; };
 		53BA90E524A02CC00002400A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53BA90E424A02CC00002400A /* Preview Assets.xcassets */; };
 		53BA90E824A02CC00002400A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53BA90E624A02CC00002400A /* LaunchScreen.storyboard */; };
+		53BA90F324A03A840002400A /* ah_bah_ouais_mais_apres_il_faut_un_peu_de_technique.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA90F224A03A830002400A /* ah_bah_ouais_mais_apres_il_faut_un_peu_de_technique.mp3 */; };
+		53BA90F524A09D9F0002400A /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BA90F424A09D9F0002400A /* PlayView.swift */; };
+		53BA90F824A21AAC0002400A /* extraitData.json in Resources */ = {isa = PBXBuildFile; fileRef = 53BA90F724A21AAB0002400A /* extraitData.json */; };
+		53BA90FA24A21AE90002400A /* ExtraitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BA90F924A21AE90002400A /* ExtraitRowView.swift */; };
+		53BA90FD24A21C7F0002400A /* Extrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BA90FC24A21C7F0002400A /* Extrait.swift */; };
+		53BA90FF24A2417F0002400A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BA90FE24A2417F0002400A /* Data.swift */; };
+		53BA910124A248B20002400A /* interprete.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910024A248B20002400A /* interprete.mp3 */; };
+		53BA910324A251130002400A /* ExtraitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BA910224A251130002400A /* ExtraitListView.swift */; };
+		53BA911324A261ED0002400A /* mais_je_vous_emmerde_mon_ptit_pote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910424A261EC0002400A /* mais_je_vous_emmerde_mon_ptit_pote.mp3 */; };
+		53BA911424A261ED0002400A /* lair_idiote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910524A261EC0002400A /* lair_idiote.mp3 */; };
+		53BA911524A261ED0002400A /* la_vache_ca_daube_la_dedans_il_y_a_un_chat_qui_est_creve_ou_quoi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910624A261EC0002400A /* la_vache_ca_daube_la_dedans_il_y_a_un_chat_qui_est_creve_ou_quoi.mp3 */; };
+		53BA911624A261ED0002400A /* mais_qu_est_ce_que_j_en_ai_a_foutre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910724A261EC0002400A /* mais_qu_est_ce_que_j_en_ai_a_foutre.mp3 */; };
+		53BA911724A261ED0002400A /* cest_pas_faux2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910824A261EC0002400A /* cest_pas_faux2.mp3 */; };
+		53BA911824A261ED0002400A /* merciiiii.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910924A261EC0002400A /* merciiiii.mp3 */; };
+		53BA911924A261ED0002400A /* tropgentil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910A24A261EC0002400A /* tropgentil.mp3 */; };
+		53BA911A24A261ED0002400A /* cest_pas_faux1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910B24A261EC0002400A /* cest_pas_faux1.mp3 */; };
+		53BA911B24A261ED0002400A /* j-ai-tout-entendu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910C24A261EC0002400A /* j-ai-tout-entendu.mp3 */; };
+		53BA911C24A261ED0002400A /* jai_rien_compris.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910D24A261EC0002400A /* jai_rien_compris.mp3 */; };
+		53BA911D24A261ED0002400A /* il_m_aura_fait_chier_jusqu_au_bout_celui_la.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910E24A261EC0002400A /* il_m_aura_fait_chier_jusqu_au_bout_celui_la.mp3 */; };
+		53BA911E24A261ED0002400A /* la-blague-est-pas-drole.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA910F24A261EC0002400A /* la-blague-est-pas-drole.mp3 */; };
+		53BA911F24A261ED0002400A /* et-oui-meme-t-es-bien-mouchee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA911024A261EC0002400A /* et-oui-meme-t-es-bien-mouchee.mp3 */; };
+		53BA912024A261ED0002400A /* le_prochain_qui_l_ouvre_galeres_trois_ans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA911124A261EC0002400A /* le_prochain_qui_l_ouvre_galeres_trois_ans.mp3 */; };
+		53BA912124A261ED0002400A /* on_en_a_gros.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA911224A261EC0002400A /* on_en_a_gros.mp3 */; };
+		53BA912324A261F90002400A /* attendez_il_faut_que_ca_soit_vrai_tout_ce_qu_on_dit_la.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA912224A261F90002400A /* attendez_il_faut_que_ca_soit_vrai_tout_ce_qu_on_dit_la.mp3 */; };
+		53BA912B24A262050002400A /* jsuis_a_mon_poste_cest_pas_le_cas_de_tout_le_monde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA912424A262050002400A /* jsuis_a_mon_poste_cest_pas_le_cas_de_tout_le_monde.mp3 */; };
+		53BA912C24A262050002400A /* bah-ca-depend-a-partir-de-quand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA912524A262050002400A /* bah-ca-depend-a-partir-de-quand.mp3 */; };
+		53BA912D24A262050002400A /* nan-nan-nous-on-est-pas-fixe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA912624A262050002400A /* nan-nan-nous-on-est-pas-fixe.mp3 */; };
+		53BA912E24A262050002400A /* sans-deconner-faut-pas-y-aller-demain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA912724A262050002400A /* sans-deconner-faut-pas-y-aller-demain.mp3 */; };
+		53BA912F24A262050002400A /* c_est_maintenant_quil_faut_se_secouer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA912824A262050002400A /* c_est_maintenant_quil_faut_se_secouer.mp3 */; };
+		53BA913024A262050002400A /* alors_des_qu_il_s_agit_d_aller_se_dorer_les_miches_en_armorique.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA912924A262050002400A /* alors_des_qu_il_s_agit_d_aller_se_dorer_les_miches_en_armorique.mp3 */; };
+		53BA913124A262050002400A /* elle_avait_choppe_toutes_les_maladies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA912A24A262050002400A /* elle_avait_choppe_toutes_les_maladies.mp3 */; };
+		53BA913324A262130002400A /* comment_peut_on_arriver_a_un_grade_aussi_eleve.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA913224A262130002400A /* comment_peut_on_arriver_a_un_grade_aussi_eleve.mp3 */; };
+		53BA913824A2621D0002400A /* et_si_vous_arretiez_de_gueuler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA913424A2621C0002400A /* et_si_vous_arretiez_de_gueuler.mp3 */; };
+		53BA913924A2621D0002400A /* C_est_pas_comme_si_on_passait_pour_des_glands_tous_les_jours.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA913524A2621D0002400A /* C_est_pas_comme_si_on_passait_pour_des_glands_tous_les_jours.mp3 */; };
+		53BA913A24A2621D0002400A /* je_pourrais_gueuler_dans_le_cul_dun_poney.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA913624A2621D0002400A /* je_pourrais_gueuler_dans_le_cul_dun_poney.mp3 */; };
+		53BA913B24A2621D0002400A /* la-cest-sur-vu-les-tronche-que-vous-tirez.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA913724A2621D0002400A /* la-cest-sur-vu-les-tronche-que-vous-tirez.mp3 */; };
+		53BA914424A262340002400A /* arretez_de_parler_aux_gens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA913C24A262340002400A /* arretez_de_parler_aux_gens.mp3 */; };
+		53BA914524A262340002400A /* mais_qu_est_ce_que_vous_me_bavez_encore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA913D24A262340002400A /* mais_qu_est_ce_que_vous_me_bavez_encore.mp3 */; };
+		53BA914624A262340002400A /* vous_la_crachez_votre_pastille.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA913E24A262340002400A /* vous_la_crachez_votre_pastille.mp3 */; };
+		53BA914724A262340002400A /* qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA913F24A262340002400A /* qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3 */; };
+		53BA914824A262340002400A /* intro_comaque.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA914024A262340002400A /* intro_comaque.mp3 */; };
+		53BA914924A262340002400A /* ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA914124A262340002400A /* ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3 */; };
+		53BA914B24A262340002400A /* alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA914324A262340002400A /* alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3 */; };
+		53BA915124A262450002400A /* bon_bah_aller_on_demarre_et_ouvrez_les_echauguettes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA914C24A262440002400A /* bon_bah_aller_on_demarre_et_ouvrez_les_echauguettes.mp3 */; };
+		53BA915224A262450002400A /* ca_va_encore_faire_des_discussions_a_rallonge.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA914D24A262440002400A /* ca_va_encore_faire_des_discussions_a_rallonge.mp3 */; };
+		53BA915324A262450002400A /* cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA914E24A262440002400A /* cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3 */; };
+		53BA915424A262450002400A /* cest_le_rendez_vous_des_glandus_la_ou_quoi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA914F24A262440002400A /* cest_le_rendez_vous_des_glandus_la_ou_quoi.mp3 */; };
+		53BA915524A262450002400A /* embobinage_dans_l_air.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA915024A262440002400A /* embobinage_dans_l_air.mp3 */; };
+		53BA915724A262540002400A /* il-n-y-a-pas-dequivoque-vous-etes-franchement-un-bourrin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA915624A262540002400A /* il-n-y-a-pas-dequivoque-vous-etes-franchement-un-bourrin.mp3 */; };
+		53BA915D24A262660002400A /* bon_cassez_vous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA915824A262650002400A /* bon_cassez_vous.mp3 */; };
+		53BA915E24A262660002400A /* est-ce_que_vous_pouvez_vous_barrer_maintenant.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA915924A262650002400A /* est-ce_que_vous_pouvez_vous_barrer_maintenant.mp3 */; };
+		53BA915F24A262660002400A /* est-ce-que-vous-allez-finir-par-fermer-vos-gueules.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA915A24A262650002400A /* est-ce-que-vous-allez-finir-par-fermer-vos-gueules.mp3 */; };
+		53BA916024A262660002400A /* oh_et_puis_j_en_ai_marre.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA915B24A262650002400A /* oh_et_puis_j_en_ai_marre.mp3 */; };
+		53BA916124A262660002400A /* commencez_pas_a_me_faire_chier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53BA915C24A262650002400A /* commencez_pas_a_me_faire_chier.mp3 */; };
+		53BA919E24A27A890002400A /* Spurius.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919224A27A890002400A /* Spurius.jpg */; };
+		53BA919F24A27A890002400A /* Yvain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919324A27A890002400A /* Yvain.jpg */; };
+		53BA91A024A27A890002400A /* Dame Séli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919424A27A890002400A /* Dame Séli.jpg */; };
+		53BA91A124A27A890002400A /* Bohort.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919524A27A890002400A /* Bohort.jpg */; };
+		53BA91A224A27A890002400A /* Arthur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919624A27A890002400A /* Arthur.jpg */; };
+		53BA91A324A27A890002400A /* Guenièvre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919724A27A890002400A /* Guenièvre.jpg */; };
+		53BA91A424A27A890002400A /* Guethenoc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919824A27A890002400A /* Guethenoc.jpg */; };
+		53BA91A524A27A890002400A /* Léodagan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919924A27A890002400A /* Léodagan.jpg */; };
+		53BA91A624A27A890002400A /* Merlin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919A24A27A890002400A /* Merlin.jpg */; };
+		53BA91A724A27A890002400A /* Perceval.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919B24A27A890002400A /* Perceval.jpg */; };
+		53BA91A824A27A890002400A /* Karadoc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919C24A27A890002400A /* Karadoc.jpg */; };
+		53BA91A924A27A890002400A /* Roparzh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 53BA919D24A27A890002400A /* Roparzh.jpg */; };
+		53BA91AB24A297CE0002400A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BA91AA24A297CE0002400A /* MenuView.swift */; };
+		53BA91AD24A2A4AA0002400A /* PersoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BA91AC24A2A4AA0002400A /* PersoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5340B4C324A37E4A004566C3 /* TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		53B373A724A5CA8E007AA88D /* PersoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoView.swift; sourceTree = "<group>"; };
+		53B373A924A5CC4A007AA88D /* FallingPersoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingPersoView.swift; sourceTree = "<group>"; };
 		53BA90D824A02CBE0002400A /* Kaamelott.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kaamelott.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53BA90DB24A02CBE0002400A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53BA90DD24A02CBE0002400A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +98,74 @@
 		53BA90E424A02CC00002400A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53BA90E724A02CC00002400A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53BA90E924A02CC00002400A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53BA90F224A03A830002400A /* ah_bah_ouais_mais_apres_il_faut_un_peu_de_technique.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ah_bah_ouais_mais_apres_il_faut_un_peu_de_technique.mp3; sourceTree = "<group>"; };
+		53BA90F424A09D9F0002400A /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		53BA90F724A21AAB0002400A /* extraitData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = extraitData.json; sourceTree = "<group>"; };
+		53BA90F924A21AE90002400A /* ExtraitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraitRowView.swift; sourceTree = "<group>"; };
+		53BA90FC24A21C7F0002400A /* Extrait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extrait.swift; sourceTree = "<group>"; };
+		53BA90FE24A2417F0002400A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		53BA910024A248B20002400A /* interprete.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = interprete.mp3; sourceTree = "<group>"; };
+		53BA910224A251130002400A /* ExtraitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraitListView.swift; sourceTree = "<group>"; };
+		53BA910424A261EC0002400A /* mais_je_vous_emmerde_mon_ptit_pote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mais_je_vous_emmerde_mon_ptit_pote.mp3; sourceTree = "<group>"; };
+		53BA910524A261EC0002400A /* lair_idiote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lair_idiote.mp3; sourceTree = "<group>"; };
+		53BA910624A261EC0002400A /* la_vache_ca_daube_la_dedans_il_y_a_un_chat_qui_est_creve_ou_quoi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = la_vache_ca_daube_la_dedans_il_y_a_un_chat_qui_est_creve_ou_quoi.mp3; sourceTree = "<group>"; };
+		53BA910724A261EC0002400A /* mais_qu_est_ce_que_j_en_ai_a_foutre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mais_qu_est_ce_que_j_en_ai_a_foutre.mp3; sourceTree = "<group>"; };
+		53BA910824A261EC0002400A /* cest_pas_faux2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cest_pas_faux2.mp3; sourceTree = "<group>"; };
+		53BA910924A261EC0002400A /* merciiiii.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = merciiiii.mp3; sourceTree = "<group>"; };
+		53BA910A24A261EC0002400A /* tropgentil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tropgentil.mp3; sourceTree = "<group>"; };
+		53BA910B24A261EC0002400A /* cest_pas_faux1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cest_pas_faux1.mp3; sourceTree = "<group>"; };
+		53BA910C24A261EC0002400A /* j-ai-tout-entendu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "j-ai-tout-entendu.mp3"; sourceTree = "<group>"; };
+		53BA910D24A261EC0002400A /* jai_rien_compris.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jai_rien_compris.mp3; sourceTree = "<group>"; };
+		53BA910E24A261EC0002400A /* il_m_aura_fait_chier_jusqu_au_bout_celui_la.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = il_m_aura_fait_chier_jusqu_au_bout_celui_la.mp3; sourceTree = "<group>"; };
+		53BA910F24A261EC0002400A /* la-blague-est-pas-drole.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "la-blague-est-pas-drole.mp3"; sourceTree = "<group>"; };
+		53BA911024A261EC0002400A /* et-oui-meme-t-es-bien-mouchee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "et-oui-meme-t-es-bien-mouchee.mp3"; sourceTree = "<group>"; };
+		53BA911124A261EC0002400A /* le_prochain_qui_l_ouvre_galeres_trois_ans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = le_prochain_qui_l_ouvre_galeres_trois_ans.mp3; sourceTree = "<group>"; };
+		53BA911224A261EC0002400A /* on_en_a_gros.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = on_en_a_gros.mp3; sourceTree = "<group>"; };
+		53BA912224A261F90002400A /* attendez_il_faut_que_ca_soit_vrai_tout_ce_qu_on_dit_la.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = attendez_il_faut_que_ca_soit_vrai_tout_ce_qu_on_dit_la.mp3; sourceTree = "<group>"; };
+		53BA912424A262050002400A /* jsuis_a_mon_poste_cest_pas_le_cas_de_tout_le_monde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jsuis_a_mon_poste_cest_pas_le_cas_de_tout_le_monde.mp3; sourceTree = "<group>"; };
+		53BA912524A262050002400A /* bah-ca-depend-a-partir-de-quand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bah-ca-depend-a-partir-de-quand.mp3"; sourceTree = "<group>"; };
+		53BA912624A262050002400A /* nan-nan-nous-on-est-pas-fixe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nan-nan-nous-on-est-pas-fixe.mp3"; sourceTree = "<group>"; };
+		53BA912724A262050002400A /* sans-deconner-faut-pas-y-aller-demain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sans-deconner-faut-pas-y-aller-demain.mp3"; sourceTree = "<group>"; };
+		53BA912824A262050002400A /* c_est_maintenant_quil_faut_se_secouer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c_est_maintenant_quil_faut_se_secouer.mp3; sourceTree = "<group>"; };
+		53BA912924A262050002400A /* alors_des_qu_il_s_agit_d_aller_se_dorer_les_miches_en_armorique.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alors_des_qu_il_s_agit_d_aller_se_dorer_les_miches_en_armorique.mp3; sourceTree = "<group>"; };
+		53BA912A24A262050002400A /* elle_avait_choppe_toutes_les_maladies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elle_avait_choppe_toutes_les_maladies.mp3; sourceTree = "<group>"; };
+		53BA913224A262130002400A /* comment_peut_on_arriver_a_un_grade_aussi_eleve.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = comment_peut_on_arriver_a_un_grade_aussi_eleve.mp3; sourceTree = "<group>"; };
+		53BA913424A2621C0002400A /* et_si_vous_arretiez_de_gueuler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = et_si_vous_arretiez_de_gueuler.mp3; sourceTree = "<group>"; };
+		53BA913524A2621D0002400A /* C_est_pas_comme_si_on_passait_pour_des_glands_tous_les_jours.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C_est_pas_comme_si_on_passait_pour_des_glands_tous_les_jours.mp3; sourceTree = "<group>"; };
+		53BA913624A2621D0002400A /* je_pourrais_gueuler_dans_le_cul_dun_poney.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = je_pourrais_gueuler_dans_le_cul_dun_poney.mp3; sourceTree = "<group>"; };
+		53BA913724A2621D0002400A /* la-cest-sur-vu-les-tronche-que-vous-tirez.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "la-cest-sur-vu-les-tronche-que-vous-tirez.mp3"; sourceTree = "<group>"; };
+		53BA913C24A262340002400A /* arretez_de_parler_aux_gens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arretez_de_parler_aux_gens.mp3; sourceTree = "<group>"; };
+		53BA913D24A262340002400A /* mais_qu_est_ce_que_vous_me_bavez_encore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mais_qu_est_ce_que_vous_me_bavez_encore.mp3; sourceTree = "<group>"; };
+		53BA913E24A262340002400A /* vous_la_crachez_votre_pastille.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vous_la_crachez_votre_pastille.mp3; sourceTree = "<group>"; };
+		53BA913F24A262340002400A /* qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3; sourceTree = "<group>"; };
+		53BA914024A262340002400A /* intro_comaque.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro_comaque.mp3; sourceTree = "<group>"; };
+		53BA914124A262340002400A /* ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3; sourceTree = "<group>"; };
+		53BA914324A262340002400A /* alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3; sourceTree = "<group>"; };
+		53BA914C24A262440002400A /* bon_bah_aller_on_demarre_et_ouvrez_les_echauguettes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bon_bah_aller_on_demarre_et_ouvrez_les_echauguettes.mp3; sourceTree = "<group>"; };
+		53BA914D24A262440002400A /* ca_va_encore_faire_des_discussions_a_rallonge.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ca_va_encore_faire_des_discussions_a_rallonge.mp3; sourceTree = "<group>"; };
+		53BA914E24A262440002400A /* cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3; sourceTree = "<group>"; };
+		53BA914F24A262440002400A /* cest_le_rendez_vous_des_glandus_la_ou_quoi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cest_le_rendez_vous_des_glandus_la_ou_quoi.mp3; sourceTree = "<group>"; };
+		53BA915024A262440002400A /* embobinage_dans_l_air.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = embobinage_dans_l_air.mp3; sourceTree = "<group>"; };
+		53BA915624A262540002400A /* il-n-y-a-pas-dequivoque-vous-etes-franchement-un-bourrin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "il-n-y-a-pas-dequivoque-vous-etes-franchement-un-bourrin.mp3"; sourceTree = "<group>"; };
+		53BA915824A262650002400A /* bon_cassez_vous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bon_cassez_vous.mp3; sourceTree = "<group>"; };
+		53BA915924A262650002400A /* est-ce_que_vous_pouvez_vous_barrer_maintenant.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "est-ce_que_vous_pouvez_vous_barrer_maintenant.mp3"; sourceTree = "<group>"; };
+		53BA915A24A262650002400A /* est-ce-que-vous-allez-finir-par-fermer-vos-gueules.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "est-ce-que-vous-allez-finir-par-fermer-vos-gueules.mp3"; sourceTree = "<group>"; };
+		53BA915B24A262650002400A /* oh_et_puis_j_en_ai_marre.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = oh_et_puis_j_en_ai_marre.mp3; sourceTree = "<group>"; };
+		53BA915C24A262650002400A /* commencez_pas_a_me_faire_chier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = commencez_pas_a_me_faire_chier.mp3; sourceTree = "<group>"; };
+		53BA919224A27A890002400A /* Spurius.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Spurius.jpg; path = ../../../../Desktop/_Kaamelott/photos/Spurius.jpg; sourceTree = "<group>"; };
+		53BA919324A27A890002400A /* Yvain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Yvain.jpg; path = ../../../../Desktop/_Kaamelott/photos/Yvain.jpg; sourceTree = "<group>"; };
+		53BA919424A27A890002400A /* Dame Séli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Dame Séli.jpg"; path = "../../../../Desktop/_Kaamelott/photos/Dame Séli.jpg"; sourceTree = "<group>"; };
+		53BA919524A27A890002400A /* Bohort.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Bohort.jpg; path = ../../../../Desktop/_Kaamelott/photos/Bohort.jpg; sourceTree = "<group>"; };
+		53BA919624A27A890002400A /* Arthur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Arthur.jpg; path = ../../../../Desktop/_Kaamelott/photos/Arthur.jpg; sourceTree = "<group>"; };
+		53BA919724A27A890002400A /* Guenièvre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Guenièvre.jpg"; path = "../../../../Desktop/_Kaamelott/photos/Guenièvre.jpg"; sourceTree = "<group>"; };
+		53BA919824A27A890002400A /* Guethenoc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Guethenoc.jpg; path = ../../../../Desktop/_Kaamelott/photos/Guethenoc.jpg; sourceTree = "<group>"; };
+		53BA919924A27A890002400A /* Léodagan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Léodagan.jpg"; path = "../../../../Desktop/_Kaamelott/photos/Léodagan.jpg"; sourceTree = "<group>"; };
+		53BA919A24A27A890002400A /* Merlin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Merlin.jpg; path = ../../../../Desktop/_Kaamelott/photos/Merlin.jpg; sourceTree = "<group>"; };
+		53BA919B24A27A890002400A /* Perceval.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Perceval.jpg; path = ../../../../Desktop/_Kaamelott/photos/Perceval.jpg; sourceTree = "<group>"; };
+		53BA919C24A27A890002400A /* Karadoc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Karadoc.jpg; path = ../../../../Desktop/_Kaamelott/photos/Karadoc.jpg; sourceTree = "<group>"; };
+		53BA919D24A27A890002400A /* Roparzh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Roparzh.jpg; path = ../../../../Desktop/_Kaamelott/photos/Roparzh.jpg; sourceTree = "<group>"; };
+		53BA91AA24A297CE0002400A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		53BA91AC24A2A4AA0002400A /* PersoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +182,8 @@
 		53BA90CF24A02CBE0002400A = {
 			isa = PBXGroup;
 			children = (
+				53BA90FB24A21C620002400A /* Models */,
+				53BA90F624A0AD8A0002400A /* Ressources */,
 				53BA90DA24A02CBE0002400A /* Kaamelott */,
 				53BA90D924A02CBE0002400A /* Products */,
 			);
@@ -57,8 +201,16 @@
 			isa = PBXGroup;
 			children = (
 				53BA90DB24A02CBE0002400A /* AppDelegate.swift */,
-				53BA90DD24A02CBE0002400A /* SceneDelegate.swift */,
 				53BA90DF24A02CBE0002400A /* ContentView.swift */,
+				53BA90F924A21AE90002400A /* ExtraitRowView.swift */,
+				53BA910224A251130002400A /* ExtraitListView.swift */,
+				53B373A924A5CC4A007AA88D /* FallingPersoView.swift */,
+				53BA91AA24A297CE0002400A /* MenuView.swift */,
+				53BA91AC24A2A4AA0002400A /* PersoListView.swift */,
+				53B373A724A5CA8E007AA88D /* PersoView.swift */,
+				53BA90F424A09D9F0002400A /* PlayView.swift */,
+				53BA90DD24A02CBE0002400A /* SceneDelegate.swift */,
+				5340B4C324A37E4A004566C3 /* TagListView.swift */,
 				53BA90E124A02CC00002400A /* Assets.xcassets */,
 				53BA90E624A02CC00002400A /* LaunchScreen.storyboard */,
 				53BA90E924A02CC00002400A /* Info.plist */,
@@ -73,6 +225,83 @@
 				53BA90E424A02CC00002400A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53BA90F624A0AD8A0002400A /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				53BA919624A27A890002400A /* Arthur.jpg */,
+				53BA919524A27A890002400A /* Bohort.jpg */,
+				53BA919424A27A890002400A /* Dame Séli.jpg */,
+				53BA919724A27A890002400A /* Guenièvre.jpg */,
+				53BA919824A27A890002400A /* Guethenoc.jpg */,
+				53BA919C24A27A890002400A /* Karadoc.jpg */,
+				53BA919924A27A890002400A /* Léodagan.jpg */,
+				53BA919A24A27A890002400A /* Merlin.jpg */,
+				53BA919B24A27A890002400A /* Perceval.jpg */,
+				53BA919D24A27A890002400A /* Roparzh.jpg */,
+				53BA919224A27A890002400A /* Spurius.jpg */,
+				53BA919324A27A890002400A /* Yvain.jpg */,
+				53BA910B24A261EC0002400A /* cest_pas_faux1.mp3 */,
+				53BA910824A261EC0002400A /* cest_pas_faux2.mp3 */,
+				53BA911024A261EC0002400A /* et-oui-meme-t-es-bien-mouchee.mp3 */,
+				53BA910E24A261EC0002400A /* il_m_aura_fait_chier_jusqu_au_bout_celui_la.mp3 */,
+				53BA915824A262650002400A /* bon_cassez_vous.mp3 */,
+				53BA915C24A262650002400A /* commencez_pas_a_me_faire_chier.mp3 */,
+				53BA915924A262650002400A /* est-ce_que_vous_pouvez_vous_barrer_maintenant.mp3 */,
+				53BA915A24A262650002400A /* est-ce-que-vous-allez-finir-par-fermer-vos-gueules.mp3 */,
+				53BA915B24A262650002400A /* oh_et_puis_j_en_ai_marre.mp3 */,
+				53BA914324A262340002400A /* alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3 */,
+				53BA913C24A262340002400A /* arretez_de_parler_aux_gens.mp3 */,
+				53BA914124A262340002400A /* ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3 */,
+				53BA915624A262540002400A /* il-n-y-a-pas-dequivoque-vous-etes-franchement-un-bourrin.mp3 */,
+				53BA914C24A262440002400A /* bon_bah_aller_on_demarre_et_ouvrez_les_echauguettes.mp3 */,
+				53BA914D24A262440002400A /* ca_va_encore_faire_des_discussions_a_rallonge.mp3 */,
+				53BA914F24A262440002400A /* cest_le_rendez_vous_des_glandus_la_ou_quoi.mp3 */,
+				53BA914E24A262440002400A /* cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3 */,
+				53BA915024A262440002400A /* embobinage_dans_l_air.mp3 */,
+				53BA914024A262340002400A /* intro_comaque.mp3 */,
+				53BA913D24A262340002400A /* mais_qu_est_ce_que_vous_me_bavez_encore.mp3 */,
+				53BA913F24A262340002400A /* qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3 */,
+				53BA913E24A262340002400A /* vous_la_crachez_votre_pastille.mp3 */,
+				53BA912224A261F90002400A /* attendez_il_faut_que_ca_soit_vrai_tout_ce_qu_on_dit_la.mp3 */,
+				53BA912924A262050002400A /* alors_des_qu_il_s_agit_d_aller_se_dorer_les_miches_en_armorique.mp3 */,
+				53BA913524A2621D0002400A /* C_est_pas_comme_si_on_passait_pour_des_glands_tous_les_jours.mp3 */,
+				53BA913424A2621C0002400A /* et_si_vous_arretiez_de_gueuler.mp3 */,
+				53BA913624A2621D0002400A /* je_pourrais_gueuler_dans_le_cul_dun_poney.mp3 */,
+				53BA913724A2621D0002400A /* la-cest-sur-vu-les-tronche-que-vous-tirez.mp3 */,
+				53BA913224A262130002400A /* comment_peut_on_arriver_a_un_grade_aussi_eleve.mp3 */,
+				53BA912524A262050002400A /* bah-ca-depend-a-partir-de-quand.mp3 */,
+				53BA912824A262050002400A /* c_est_maintenant_quil_faut_se_secouer.mp3 */,
+				53BA912A24A262050002400A /* elle_avait_choppe_toutes_les_maladies.mp3 */,
+				53BA912424A262050002400A /* jsuis_a_mon_poste_cest_pas_le_cas_de_tout_le_monde.mp3 */,
+				53BA912624A262050002400A /* nan-nan-nous-on-est-pas-fixe.mp3 */,
+				53BA912724A262050002400A /* sans-deconner-faut-pas-y-aller-demain.mp3 */,
+				53BA910C24A261EC0002400A /* j-ai-tout-entendu.mp3 */,
+				53BA910D24A261EC0002400A /* jai_rien_compris.mp3 */,
+				53BA910624A261EC0002400A /* la_vache_ca_daube_la_dedans_il_y_a_un_chat_qui_est_creve_ou_quoi.mp3 */,
+				53BA910F24A261EC0002400A /* la-blague-est-pas-drole.mp3 */,
+				53BA910524A261EC0002400A /* lair_idiote.mp3 */,
+				53BA911124A261EC0002400A /* le_prochain_qui_l_ouvre_galeres_trois_ans.mp3 */,
+				53BA910424A261EC0002400A /* mais_je_vous_emmerde_mon_ptit_pote.mp3 */,
+				53BA910724A261EC0002400A /* mais_qu_est_ce_que_j_en_ai_a_foutre.mp3 */,
+				53BA910924A261EC0002400A /* merciiiii.mp3 */,
+				53BA911224A261EC0002400A /* on_en_a_gros.mp3 */,
+				53BA910A24A261EC0002400A /* tropgentil.mp3 */,
+				53BA90F724A21AAB0002400A /* extraitData.json */,
+				53BA90F224A03A830002400A /* ah_bah_ouais_mais_apres_il_faut_un_peu_de_technique.mp3 */,
+				53BA910024A248B20002400A /* interprete.mp3 */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		53BA90FB24A21C620002400A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				53BA90FC24A21C7F0002400A /* Extrait.swift */,
+				53BA90FE24A2417F0002400A /* Data.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +362,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53BA912F24A262050002400A /* c_est_maintenant_quil_faut_se_secouer.mp3 in Resources */,
+				53BA910124A248B20002400A /* interprete.mp3 in Resources */,
+				53BA915324A262450002400A /* cest_moi_ou_il_y_a_une_ambiance_de_merde.mp3 in Resources */,
+				53BA91A624A27A890002400A /* Merlin.jpg in Resources */,
+				53BA915224A262450002400A /* ca_va_encore_faire_des_discussions_a_rallonge.mp3 in Resources */,
+				53BA913924A2621D0002400A /* C_est_pas_comme_si_on_passait_pour_des_glands_tous_les_jours.mp3 in Resources */,
+				53BA911924A261ED0002400A /* tropgentil.mp3 in Resources */,
+				53BA915424A262450002400A /* cest_le_rendez_vous_des_glandus_la_ou_quoi.mp3 in Resources */,
+				53BA91A124A27A890002400A /* Bohort.jpg in Resources */,
+				53BA911524A261ED0002400A /* la_vache_ca_daube_la_dedans_il_y_a_un_chat_qui_est_creve_ou_quoi.mp3 in Resources */,
+				53BA91A424A27A890002400A /* Guethenoc.jpg in Resources */,
+				53BA91A224A27A890002400A /* Arthur.jpg in Resources */,
+				53BA91A024A27A890002400A /* Dame Séli.jpg in Resources */,
+				53BA91A724A27A890002400A /* Perceval.jpg in Resources */,
+				53BA912124A261ED0002400A /* on_en_a_gros.mp3 in Resources */,
+				53BA912D24A262050002400A /* nan-nan-nous-on-est-pas-fixe.mp3 in Resources */,
+				53BA90F324A03A840002400A /* ah_bah_ouais_mais_apres_il_faut_un_peu_de_technique.mp3 in Resources */,
+				53BA911E24A261ED0002400A /* la-blague-est-pas-drole.mp3 in Resources */,
+				53BA911724A261ED0002400A /* cest_pas_faux2.mp3 in Resources */,
+				53BA911424A261ED0002400A /* lair_idiote.mp3 in Resources */,
+				53BA911A24A261ED0002400A /* cest_pas_faux1.mp3 in Resources */,
+				53BA916024A262660002400A /* oh_et_puis_j_en_ai_marre.mp3 in Resources */,
+				53BA915524A262450002400A /* embobinage_dans_l_air.mp3 in Resources */,
+				53BA916124A262660002400A /* commencez_pas_a_me_faire_chier.mp3 in Resources */,
+				53BA914B24A262340002400A /* alors_moi_jai_un_petit_probleme__jai_pas_pige_un_broc_de_ce_que_vous_bavez.mp3 in Resources */,
+				53BA911624A261ED0002400A /* mais_qu_est_ce_que_j_en_ai_a_foutre.mp3 in Resources */,
+				53BA914924A262340002400A /* ca_vous_fait_pas_mal_a_la_tete_de_glandouiller.mp3 in Resources */,
+				53BA913124A262050002400A /* elle_avait_choppe_toutes_les_maladies.mp3 in Resources */,
+				53BA913A24A2621D0002400A /* je_pourrais_gueuler_dans_le_cul_dun_poney.mp3 in Resources */,
 				53BA90E824A02CC00002400A /* LaunchScreen.storyboard in Resources */,
+				53BA919E24A27A890002400A /* Spurius.jpg in Resources */,
+				53BA919F24A27A890002400A /* Yvain.jpg in Resources */,
+				53BA91A924A27A890002400A /* Roparzh.jpg in Resources */,
+				53BA911D24A261ED0002400A /* il_m_aura_fait_chier_jusqu_au_bout_celui_la.mp3 in Resources */,
+				53BA912024A261ED0002400A /* le_prochain_qui_l_ouvre_galeres_trois_ans.mp3 in Resources */,
+				53BA911824A261ED0002400A /* merciiiii.mp3 in Resources */,
+				53BA912E24A262050002400A /* sans-deconner-faut-pas-y-aller-demain.mp3 in Resources */,
+				53BA913324A262130002400A /* comment_peut_on_arriver_a_un_grade_aussi_eleve.mp3 in Resources */,
+				53BA913024A262050002400A /* alors_des_qu_il_s_agit_d_aller_se_dorer_les_miches_en_armorique.mp3 in Resources */,
+				53BA90F824A21AAC0002400A /* extraitData.json in Resources */,
 				53BA90E524A02CC00002400A /* Preview Assets.xcassets in Resources */,
+				53BA911F24A261ED0002400A /* et-oui-meme-t-es-bien-mouchee.mp3 in Resources */,
+				53BA912B24A262050002400A /* jsuis_a_mon_poste_cest_pas_le_cas_de_tout_le_monde.mp3 in Resources */,
+				53BA913824A2621D0002400A /* et_si_vous_arretiez_de_gueuler.mp3 in Resources */,
+				53BA915724A262540002400A /* il-n-y-a-pas-dequivoque-vous-etes-franchement-un-bourrin.mp3 in Resources */,
+				53BA913B24A2621D0002400A /* la-cest-sur-vu-les-tronche-que-vous-tirez.mp3 in Resources */,
+				53BA912324A261F90002400A /* attendez_il_faut_que_ca_soit_vrai_tout_ce_qu_on_dit_la.mp3 in Resources */,
+				53BA914624A262340002400A /* vous_la_crachez_votre_pastille.mp3 in Resources */,
+				53BA912C24A262050002400A /* bah-ca-depend-a-partir-de-quand.mp3 in Resources */,
+				53BA915E24A262660002400A /* est-ce_que_vous_pouvez_vous_barrer_maintenant.mp3 in Resources */,
 				53BA90E224A02CC00002400A /* Assets.xcassets in Resources */,
+				53BA91A524A27A890002400A /* Léodagan.jpg in Resources */,
+				53BA91A324A27A890002400A /* Guenièvre.jpg in Resources */,
+				53BA914524A262340002400A /* mais_qu_est_ce_que_vous_me_bavez_encore.mp3 in Resources */,
+				53BA914724A262340002400A /* qu_est_ce_que_vous_voulez_savoir_allez_vous_vous_magner_le_tronc_maintenant.mp3 in Resources */,
+				53BA914824A262340002400A /* intro_comaque.mp3 in Resources */,
+				53BA915124A262450002400A /* bon_bah_aller_on_demarre_et_ouvrez_les_echauguettes.mp3 in Resources */,
+				53BA914424A262340002400A /* arretez_de_parler_aux_gens.mp3 in Resources */,
+				53BA911B24A261ED0002400A /* j-ai-tout-entendu.mp3 in Resources */,
+				53BA915D24A262660002400A /* bon_cassez_vous.mp3 in Resources */,
+				53BA911324A261ED0002400A /* mais_je_vous_emmerde_mon_ptit_pote.mp3 in Resources */,
+				53BA911C24A261ED0002400A /* jai_rien_compris.mp3 in Resources */,
+				53BA91A824A27A890002400A /* Karadoc.jpg in Resources */,
+				53BA915F24A262660002400A /* est-ce-que-vous-allez-finir-par-fermer-vos-gueules.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +436,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53BA90FF24A2417F0002400A /* Data.swift in Sources */,
 				53BA90DC24A02CBE0002400A /* AppDelegate.swift in Sources */,
+				53B373AA24A5CC4A007AA88D /* FallingPersoView.swift in Sources */,
+				53BA910324A251130002400A /* ExtraitListView.swift in Sources */,
 				53BA90DE24A02CBE0002400A /* SceneDelegate.swift in Sources */,
+				53BA91AB24A297CE0002400A /* MenuView.swift in Sources */,
+				53BA90FA24A21AE90002400A /* ExtraitRowView.swift in Sources */,
+				53BA91AD24A2A4AA0002400A /* PersoListView.swift in Sources */,
+				5340B4C424A37E4A004566C3 /* TagListView.swift in Sources */,
+				53BA90F524A09D9F0002400A /* PlayView.swift in Sources */,
 				53BA90E024A02CBE0002400A /* ContentView.swift in Sources */,
+				53B373A824A5CA8E007AA88D /* PersoView.swift in Sources */,
+				53BA90FD24A21C7F0002400A /* Extrait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

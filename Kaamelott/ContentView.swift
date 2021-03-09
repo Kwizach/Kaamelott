@@ -7,10 +7,32 @@
 //
 
 import SwiftUI
+import AVKit
+
 
 struct ContentView: View {
+    
+    @State var selected = 0
+    
     var body: some View {
-        Text("Hello, World!")
+        TabView(selection: $selected) {
+            ExtraitListView(listExtrait: extraitData, titleStr: "").tabItem({
+                Image(systemName: "text.bubble")
+                    .font(.title)
+                Text("All")
+            }).tag(0)
+            PersoListView().tabItem({
+                Image(systemName: "person.circle")
+                    .font(.title)
+                Text("Persos")
+            }).tag(1)
+            TagListView().tabItem({
+                Image(systemName: "tag.circle")
+                    .font(.title)
+                Text("Tags")
+            }).tag(2)
+        }
+        .accentColor(.black)
     }
 }
 
